@@ -1,5 +1,6 @@
 body {
 	background-color: #3B3E47;
+	margin: 0;
 }
 
 header {
@@ -7,7 +8,12 @@ header {
 	color: #B8757E;
 	text-align: center;
 	font-size: 35px;
+	padding: 10px 0;
 
+}
+
+main {
+	margin-top: 30px;
 }
 
 ul {
@@ -20,8 +26,12 @@ ul {
 
 ul li {
 	background-color: #88849F;
+	padding: 10px;
 }
 
+ul li:active {
+	color: red;
+}
 ul li:nth-child(2n){
 	background-color: #7A7593;
 }
@@ -34,13 +44,16 @@ ul li:hover {
 }
 
 button {
-	width: 200px;
+	width: 400px;
 	text-align: center;
 	margin: 0 auto;	
 	background-color: #4A4F55;
 	color: #B8757E;
 	border: none;
 	text-align:center;
+	display:block;
+	padding: 10px 0;
+	margin-top: 20px;
 
 }
 
@@ -49,4 +62,9 @@ button :hover {
 	border-bottom: 5px solid white;
 	cursor: pointer;
 	background-color: #625E78;
+}
+
+input:checked + label {
+	text-decoration: line-through;
+	color: silver;
 }
