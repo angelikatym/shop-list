@@ -1,0 +1,52 @@
+body {
+	background-color: #3B3E47;
+}
+
+header {
+	background-color:#4A4E57;
+	color: #B8757E;
+	text-align: center;
+	font-size: 35px;
+
+}
+
+ul {
+	width: 400px;
+	margin: 0 auto;
+	list-style: none;
+	padding: 0;
+	font-size:20;
+}
+
+ul li {
+	background-color: #88849F;
+}
+
+ul li:nth-child(2n){
+	background-color: #7A7593;
+}
+
+ul li:hover {
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	cursor: pointer;
+	background-color: #625E78;
+}
+
+button {
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;	
+	background-color: #4A4F55;
+	color: #B8757E;
+	border: none;
+	text-align:center;
+
+}
+
+button :hover {
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	cursor: pointer;
+	background-color: #625E78;
+}
